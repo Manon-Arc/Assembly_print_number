@@ -44,7 +44,7 @@ The [binary file](/nombre.o) is generate with the following command :
 nasm -f elf32 -O3 nombre.s -o nombre.o
 ```
 
-#### 4. Generate exe file
+#### 4. Generate exe file :
 The [exe file](/nombre) is generate with the following command :
 ```bash
 ld -m elf_i386 -s -z norelro -z noseparate-code --strip-all --gc-sections -o nombre nombre.o
